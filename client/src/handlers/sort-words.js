@@ -22,7 +22,7 @@ export const sortWords = (event) => {
   */
 
   // ... write some code ...
-  const howToSort = a.target.value;
+  
   data.sort = howToSort;
   const sorted = sortStrings(data.words, data.sort),
     newList = sorted.reduce((a, howToSort) => `${a}<li>${howToSort}</li>`, '');
