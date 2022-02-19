@@ -25,7 +25,7 @@ export const sortWords = (event) => {
   
   data.sort = howToSort;
   const sorted = sortStrings(data.words, data.sort),
-    newList = sorted.reduce((event, howToSort) => `${a}<li>${howToSort}</li>`, '');
+    newList = sorted.reduce((event, howToSort) => `${event}<li>${howToSort}</li>`, '');
   document.getElementById('list-container').innerHTML = `<ul>${newList}</ul>`;
 
   /* -- render new words -- */
