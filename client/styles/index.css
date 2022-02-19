@@ -1,1 +1,4 @@
 @import url('./other-file.css');
+.warning{
+color:red;
+}
