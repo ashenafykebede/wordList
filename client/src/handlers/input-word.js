@@ -48,7 +48,7 @@ export const inputWord = (event) => {
     data.words.push(text);
   } else if (action === 'remove') {
     // ... write some code ...
-    if (!data.words.includes(b))
+    if (!data.words.includes(text))
        return void (warnings.innerHTML = `"${text}" is not in the list`);
        data.words.splice(data.words.indexOf(text), 1);
   }
