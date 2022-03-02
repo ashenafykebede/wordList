@@ -31,6 +31,6 @@
           : 'longest' === sortType
           ? [...toSort].sort((sorted, toSort) => sorted.length - toSort.length).reverse()
           : [...toSort]),
-      sorted
+      sorted;
     );
   };
