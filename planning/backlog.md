@@ -24,7 +24,7 @@
 - As a user I can surf the website smoothly both in small and large screen devices 
   - [ ] The website is Responsive
 - As a user I can see descriptive pop up messages
-  - [ ] There are custom messages for user activities like
+  - [ ] There are custom messages for user activities
     - successfully saved
     - error! that is not a word
     - List item removed successfully
