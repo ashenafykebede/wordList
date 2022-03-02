@@ -33,4 +33,4 @@ export const sortStrings = (toSort = [], sortType = 'oldest') => {
           : [...toSort]),
       sorted
     );
-  },
+  }
