@@ -1,9 +1,11 @@
 @import url('./other-file.css');
-.warning{
-color:red;
+
+.warning {
+  color: red;
 }
-.container{
-   display:flex;
-   justify-content:center;
-   margin:100px;
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
 }
