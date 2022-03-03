@@ -4,29 +4,55 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./client/public/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-
+    <title>Word List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link href="./client/styles/index.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="root">
-<form id="input-form"> <input name="text" placeholder="new word" />
-<input type="button" value="add" /> 
-<input type="button" value="remove" /> 
-</form> <code id="warnings" class="warning">
-</code> <br />
- sort:<select id="sort-type"> 
-<option value="oldest">old -> new</option> 
-<option value="newest">new -> old</option>
-<option value="a">a -> z</option> 
-<option value="z">z -> a</option> 
-<option value="shortest">short -> long</option> 
-<option value="longest">long -> short</option> 
-</select> 
-<div id="list-container"></div> </div>
-
-</div>
-
+    <div id="root" class="container">     
+      <div class="row">
+        <div class="col-md-8">
+          <h3>A simple JS word list maker</h3>
+          <form id="input-form" class="form-inline">
+            <div class="form-group mb-2">
+              <input name="text" placeholder="type new word" class="form-control" />
+            </div>
+            <div class="form-group">
+              <input type="button" class="btn btn-outline-success m-2" value="add" />
+            </div>
+            <div class="form-group">
+              <input type="button" class="btn btn-outline-danger" value="remove" />
+            </div>
+          </form>         
+        </div>
+        <div class="col-md-8">
+          <code id="warnings" class="warning"></code>            
+        </div>
+        <div class="col-md-8">
+          <label for="sort">Sort by:</label><select id="sort-type" class="form-control active">
+            <option value="oldest">old -> new</option>
+            <option value="newest">new -> old</option>
+            <option value="a">a -> z</option>
+            <option value="z">z -> a</option>
+            <option value="shortest">short -> long</option>
+            <option value="longest">long -> short</option>
+          </select>
+          <div id="list-container"></div> 
+        </div>
+      </div>    
+    </div>
     <script type="module" src="./client/src/init/index.js"></script>
   </body>
 </html>

@@ -16,10 +16,10 @@
  *
  * // ... write this!
  */
- export const sortStrings = (toSort = [], sortType = 'oldest') => {
-    let sorted;
-    return (
-      (sorted =
+export const sortStrings = (toSort = [], sortType = 'oldest') => {
+  let sorted;
+  return (
+    (sorted =
         'newest' === sortType
           ? [...toSort].reverse()
           : 'a' === sortType
