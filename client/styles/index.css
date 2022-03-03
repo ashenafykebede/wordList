@@ -1,11 +1,16 @@
 @import url('./other-file.css');
 
+body {
+  margin: 0;
+  height: 100%;
+}
 .warning {
   color: red;
 }
 
 .container {
+  margin-top: 200px;
   display: flex;
   justify-content: center;
-  margin: 100px;
+  align-items: center;
 }
