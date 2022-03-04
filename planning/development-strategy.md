@@ -21,6 +21,7 @@
 - [ ] there is a page title which reads "Word List"
 
   - type: html
+  
     - [ ] use the 'title' html tag to create the page title
 
 > As a user I can type a word to create a list  
