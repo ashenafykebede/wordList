@@ -93,19 +93,26 @@
   
 > As a user I can see words listed
 
-- type : html
-- [ ] there is `div` container element to populate it with the list from the user
-- [ ] `ul` tag for list container
-- [ ] `li` tag to display word list
-
-- type : css
-- [ ] apply `id = list-container` on the list container `div` for js use
-- [ ] add `list-group` bootstrap class to the  `ul` tag for styling
-- [ ] add `list-group-item` bootstrap class to the `li` tag for styling the list of words
+- [ ] there is a space below the input field for word listing
   
-- type: component
+  - type : html
+  
+    - [ ] there is `div` container element to populate it with the list from the user
+    - [ ] `ul` tag for list container
+    - [ ] `li` tag to display word list
 
-  - [ ] there is a js component named as `render-list.js` which is responsible for populating with word list
+  - type : css
+    - [ ] apply `id = list-container` on the list container `div` for js use
+    - [ ] add `list-group` bootstrap class to the  `ul` tag for styling
+    - [ ] add `list-group-item` bootstrap class to the `li` tag for styling the list of words
+  
+  - type: component
+
+    - [ ] there is a js component named as `render-list.js` which is responsible for populating with word list
+
+  - type: listener
+
+    - [ ] there is a js listener named  `sort-words.js` which captures `onChange` for sorting
 
 ## Should-Haves
 
