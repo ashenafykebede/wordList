@@ -85,7 +85,8 @@
   
   - type: listener
 
-    - [ ] use `sort-words.js` javascript listener to capture the `onclick` event on the remove button
+    - [ ] use `sort-words.js` javascript listener to capture the `onChange` event on the dropdown options
+  
   - type: handler
 
     - [ ] there is a js handler named as `sort-words.js` which is responsible for handling the sort-by event on change
@@ -96,6 +97,11 @@
 - [ ] there is `div` container element to populate it with the list from the user
 - [ ] `ul` tag for list container
 - [ ] `li` tag to display word list
+
+- type : css
+- [ ] apply `id = list-container` on the list container `div` for js use
+- [ ] add `list-group` bootstrap class to the  `ul` tag for styling
+- [ ] add `list-group-item` bootstrap class to the `li` tag for styling the list of words
   
 - type: component
 
