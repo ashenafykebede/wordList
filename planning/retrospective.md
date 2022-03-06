@@ -20,6 +20,11 @@
 
 
 ## Lessons Learned
+ - Separation of concerns 
+
+ - js refactoring 
+
+- components/ rendering 
 
 ---
 
@@ -27,8 +32,15 @@
 
 ### What parts of your plan went as expected?
 
+- all the must haves are implemented 
+
 ### What parts of your plan did not work out?
 
+- I wish I could implement the should-haves and could-haves
+- time management due tight schedule at work and school
+
 ### Did you need to add things that weren't in your strategy?
+
+- nothing so far
 
 ### Or remove extra steps?
